@@ -1,0 +1,120 @@
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.base {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+}
+
+.box1 {
+    background-color: #63b1bc;
+}
+
+.box2 {
+    background-color: #1f2a44;
+}
+
+.box3 {
+    background-color: #ed145b;
+}
+
+.box4 {
+    background-color: #efb661;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+
+/* 
+A1) Alinhados junto a borda de início;
+
+A2) Alinhados junto a borda final;
+
+A3) Centralizados na linha;
+
+A4) Distribuir os itens de forma igual ao longo da linha, o primeiro item junto a borda inicial da linha, o último junto a borda final da linha;
+
+A5) Distribuir os itens na linha com o mesmo espaçamento ao redor dele.
+
+A6) Distribuir os itens de forma que o espaçamento entre quaisquer dos itens da linha seja igual.
+*/
+
+
+/* Insira o código abaixo */
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+.container4 {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
+.container5 {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+}
+.container6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+/*
+Exercício B) Estilize a div com classe "container-exercicioB" para que fique como abaixo:*/
+.container-exercicioB{
+    background-color: #d0d3d4;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content:flex-start;
+}
+
+
+/* Levando como exemplo os exercícios A e B, desenvolva a página de forma que seus 
+elementos fiquem dispostos alinhados horizontalmente da direita para a esquerda, tendo 
+seu último elemento “grudado” no lado esquerdo da tela.
+*/
+
+.container-desafio {
+    background-color: #d0d3d4;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:flex-end;
+}
+
+
+
+
+
+
+
